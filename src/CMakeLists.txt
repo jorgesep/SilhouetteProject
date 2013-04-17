@@ -37,6 +37,6 @@ find_library(Logging log4cplus PATHS /opt/local/lib)
 # openCV library
 FIND_PACKAGE( OpenCV REQUIRED )
 
-ADD_EXECUTABLE( sagmm ${SRCS} )
-TARGET_LINK_LIBRARIES( sagmm ${OpenCV_LIBS} ${Logging} )
+ADD_EXECUTABLE( main ${SRCS} )
+TARGET_LINK_LIBRARIES( main ${OpenCV_LIBS} ${Logging} )
 
