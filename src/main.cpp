@@ -23,7 +23,7 @@
 
 #include <iomanip> 
 
-#include "sagmm.h"
+#include "main.h"
 #include "mdgkt_filter.h"
 
 #include <iostream>
